@@ -15,7 +15,23 @@ html, body {
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
 }
-
+.wrap {
+    width: 1060px;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+.text_over_image {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    height:100px;
+}
 
 /*
 ---- Navbar
@@ -166,7 +182,7 @@ html, body {
 .overlay ul li a:hover,
 .overlay ul li a:focus,
 .overlay ul li a:active {
-  color: #ea2e49;
+  color: #F2F2F2;
 }
 .overlay ul li a:hover:after,
 .overlay ul li a:focus:after,
