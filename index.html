@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<meta name="robots" content="noindex,follow" />
+  </head>
+  <body>
 
-<head>
-	<meta charset="utf-8">
-	
-	<title></title>
-	
-	<style>
-		
-		img.bg {
-			/* Set rules to fill background */
-			min-height: 100%;
-			min-width: 1024px;
-			
-			/* Set up proportionate scaling */
-			width: 100%;
-			height: 100%;
-			
-			/* Set up positioning */
-			position: fixed;
-			top: 0;
-			left: 0;
-		}
-		
-		@media screen and (max-width: 1024px){
-			img.bg {
-				left: 50%;
-				margin-left: -512px; }
-		}
-		
-		#page-wrap { position: relative; width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
-		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
-	</style>
-    
-</head>
+    <!-- Navbar -->
+    <div class="navbar">
+      <!--<img class="logo" src="images/logo.png" alt=""/>-->
 
-<body>
-<div class="menu">    
+      <div class="navbar-buttons">
+        <button class="button" type="button" name="button">SIGN IN</button>
+        <span><img class="open-menu" src="images/menu.svg" alt=""/></span>
+      </div>
+    </div>
 
-    </div>   
-	<img src="tree.png" class="bg">	
-	
-</body>
+    <!-- Overlay Navigation Menu -->
+    <div class="overlay">
+      <h2 class="nav-title">Navigation</h2>
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Publications</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><img class="close-menu" src="images/close.svg" alt=""/></li>
+        </ul>
+      </nav>
+    </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
 </html>
