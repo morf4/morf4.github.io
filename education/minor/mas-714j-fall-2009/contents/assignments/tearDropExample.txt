@@ -1,0 +1,124 @@
+/* 
+ a program that maps:
+ sensor data from pin a3 (sensorPin1) to analog output on pin 11 (fade1) 
+ and sound output on pin 15/19 (sound1)
+ sensor data from pin a2 (sensorPin2) to analog output on pin 10 (fade2)
+ sensor data from pin a0 (sensorPin3) to digital output on pin 1 (on3)
+ sensor data from all sensors to digital output on pin 0 (onAll)
+ 
+ */
+
+int boardLED = 13;
+int speakerPin = 19;
+int sensorPin1 = 3;  
+int sensorPin2 = 2;  
+int sensorPin3 = 0;  
+int sensor;
+int fade1 = 11;
+int fade2 = 10;
+int on3 = 1;
+int onAll = 0;
+
+//sensor smoothing variables
+float accum1=1023;
+float accum2=0;
+float fval0 = .3;
+float fval1 = .2;
+
+void setup() {
+  //initialize the input and output pins
+  pinMode(boardLED, OUTPUT);      //set boardLED to be an output
+  digitalWrite(boardLED, HIGH);   //rurn boardLED on
+  pinMode(fade1, OUTPUT);
+  pinMode(fade2, OUTPUT);
+  pinMode(on3, OUTPUT);
+  pinMode(onAll, OUTPUT);
+  digitalWrite(fade1, LOW);
+  digitalWrite(fade2, LOW);
+  digitalWrite(on3, LOW);
+  digitalWrite(onAll, LOW);
+  pinMode(speakerPin, OUTPUT);
+  digitalWrite(speakerPin,HIGH);
+  digitalWrite(14, HIGH);  // set pullup on analog pin 0
+  digitalWrite(16, HIGH);  // set pullup on analog pin 0
+  digitalWrite(17, HIGH);  // set pullup on analog pin 0
+}
+
+void loop()
+{   
+  //READ SENSOR1
+  sensor = analogRead(sensorPin1);
+  //smooth the sensor data
+  sensor =  (int)(fval0 * (float)sensor) + ((1-fval0) * accum1);
+  accum1 = sensor;
+  //map high values to bright LED & low values to dim LED
+  if (sensor < 1000)
+  {
+    beep(speakerPin, sensor*3, 10);  
+    analogWrite(fade1, sensor/5);
+  }
+  else
+  {
+    analogWrite(fade1, 0);
+  }
+
+  //READ SENSOR2
+  sensor = analogRead(sensorPin2);
+  //smooth the sensor data
+  sensor =  (int)(fval1 * (float)sensor) + ((1-fval1) * accum2);
+  accum2 = sensor;
+  //map high values to bright LED & low values to dim LED
+  analogWrite(fade2, sensor/5);
+  
+  //READ SENSOR3
+  sensor = analogRead(sensorPin3);
+  //map low values to LED on & high values to LED off
+  if (sensor < 512)
+  {
+    digitalWrite(on3, HIGH);  //turn LED on
+  }
+  else
+  {
+    digitalWrite(on3, LOW);  //turn LED off
+  }
+
+  //READ ALL SENSORS
+  while (analogRead(sensorPin1) <512 &
+    analogRead(sensorPin2) <512 &
+    analogRead(sensorPin3) <512)
+  {
+    //if all sensors are triggered do:
+    int x=0;
+    for (x=0;x<3;x++)
+    {
+      digitalWrite(fade1, HIGH);
+      digitalWrite(fade2, HIGH);
+      digitalWrite(on3, HIGH);
+      digitalWrite(onAll, HIGH);
+      delay(100);
+      digitalWrite(fade1, LOW);
+      digitalWrite(fade2, LOW);
+      digitalWrite(on3, LOW);
+      digitalWrite(onAll, LOW);
+      delay(100);
+    }
+  } 
+}
+
+//the sound producing function
+void beep (unsigned char speakerPin, int frequencyInHertz, long timeInMilliseconds)     // the sound producing function
+{ 	 
+  int x; 	 
+  long delayAmount = (long)(1000000/frequencyInHertz);
+  long loopTime = (long)((timeInMilliseconds*1000)/(delayAmount*2));
+  for (x=0;x<loopTime;x++) 	 
+  { 	 
+    digitalWrite(speakerPin,HIGH);
+    delayMicroseconds(delayAmount);
+    digitalWrite(speakerPin,LOW);
+    delayMicroseconds(delayAmount);
+  } 	 
+} 
+
+
+
