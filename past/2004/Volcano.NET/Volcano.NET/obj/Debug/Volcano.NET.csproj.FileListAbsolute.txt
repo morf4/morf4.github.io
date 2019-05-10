@@ -1,0 +1,10 @@
+C:\Users\Jonathan Moore\Desktop\Volcano.NET\Volcano.NET\bin\Volcano.NET.dll
+C:\Users\Jonathan Moore\Desktop\Volcano.NET\Volcano.NET\bin\Volcano.NET.pdb
+C:\Users\Jonathan Moore\Desktop\Volcano.NET\Volcano.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Volcano.NET\Volcano.NET\obj\Debug\Volcano.NET.dll
+C:\Users\Jonathan Moore\Desktop\Volcano.NET\Volcano.NET\obj\Debug\Volcano.NET.pdb
+C:\JonathanMoore\Personal\Web\Volcano.NET\Volcano.NET\bin\Volcano.NET.dll
+C:\JonathanMoore\Personal\Web\Volcano.NET\Volcano.NET\bin\Volcano.NET.pdb
+C:\JonathanMoore\Personal\Web\Volcano.NET\Volcano.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\JonathanMoore\Personal\Web\Volcano.NET\Volcano.NET\obj\Debug\Volcano.NET.dll
+C:\JonathanMoore\Personal\Web\Volcano.NET\Volcano.NET\obj\Debug\Volcano.NET.pdb

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>Life in Code</title>
+    <description>Jonathan Moore's Tech Blog</description>
+    <link>http://www.jonathanmoore.net</link>
+    <item>
+      <title>January 15, 2008</title>
+      <description>Announcing the SDK.</description>
+        <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+     </item>
+    <item>
+      <title>January 16, 2008</title>
+      <description>Sphinx Logic up and running</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+    </item>
+    <item>
+      <title>January 17, 2008</title>
+      <description>Added another How To..</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+    </item>
+    <item>
+      <title>January 22, 2008</title>
+      <description>Changed hosting companies</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+    </item>
+    <item>
+      <title>January 23, 2008</title>
+      <description>Search feature</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+    </item>
+    <item>
+      <title>January 27, 2008</title>
+      <description>Paging Control</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+    </item>
+    <item>
+      <title>January 28, 2008</title>
+      <description>The Sphinx Logic SDK</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>
+    </item>
+    <item>
+      <title>January 29, 2008</title>
+      <description>Sphinx Logic beta site</description>
+      <link>http://www.sphinxlogic.com/2008/Jan08.aspx</link>      
+    </item>
+    <item>
+      <title>Feburary 1, 2008</title>
+      <description>Framework Design Guidelines</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 2, 2008</title>
+      <description>Supernova</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 6, 2008</title>
+      <description>SDK update</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 9, 2008</title>
+      <description>Bill Clinton</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 13, 2008</title>
+      <description>Supernova download</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 17, 2008</title>
+      <description>Updating with VS2008</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 22, 2008</title>
+      <description>SDK Documentation</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>Feburary 23, 2008</title>
+      <description>Search feature integration</description>
+      <link>http://www.sphinxlogic.com/2008/Feb08.aspx</link>
+    </item>
+    <item>
+      <title>March 1, 2008</title>
+      <description>SDK release</description>
+      <link>http://www.sphinxlogic.com/2008/March08.aspx</link>
+    </item>
+    <item>
+      <title>March 4, 2008</title>
+      <description>SDK system requirments</description>
+      <link>http://www.sphinxlogic.com/2008/March08.aspx</link>
+    </item>
+    <item>
+      <title>March 12, 2008</title>
+      <description>Toolbox Controls Installer</description>
+      <link>http://www.sphinxlogic.com/2008/March08.aspx</link>
+    </item>
+    <item>
+      <title>March 17, 2008</title>
+      <description>SDK Update</description>
+      <link>http://www.sphinxlogic.com/2008/March08.aspx</link>
+    </item>
+    <item>
+      <title>March 20, 2008</title>
+      <description>Supernova now Sphinx Logic Framework</description>
+      <link>http://www.sphinxlogic.com/2008/March08.aspx</link>
+    </item>
+    <item>
+      <title>March 31, 2008</title>
+      <description>Silverlight 2 beta 1</description>
+      <link>http://www.sphinxlogic.com/2008/March08.aspx</link>
+    </item>
+    <item>
+      <title>April 3, 2008</title>
+      <description>HTMLWindow class</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>April 9, 2008</title>
+      <description>Sphinx Logic site plans</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>April 10, 2008</title>
+      <description>Video demo</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>April 14, 2008</title>
+      <description>Supernova Update</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>April 19, 2008</title>
+      <description>Fedora</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>April 20, 2008</title>
+      <description>Working on RSS feed</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>April 21, 2008</title>
+      <description>Blog site update</description>
+      <link>http://www.sphinxlogic.com/April08.aspx</link>
+    </item>
+    <item>
+      <title>May 3, 2008</title>
+      <description>Remixing</description>
+      <link>http://www.sphinxlogic.com/Default.aspx</link>
+    </item>
+    <item>
+      <title>June 5, 2008</title>
+      <description>Growing roots</description>
+      <link>http://www.sphinxlogic.com/Default.aspx</link>
+    </item>
+
+  </channel>
+
+</rss>
+

@@ -1,0 +1,8 @@
+<publishData>
+  <publishTarget publishUrl="C:\JonathanMoore\Personal\Web\Volcano.NET\">
+    <file relUrl="Default.aspx" publishTime="10/04/2008 22:03:18" />
+    <file relUrl="bin/Volcano.NET.dll" publishTime="10/04/2008 22:04:46" />
+    <file relUrl="bin/Volcano.NET.pdb" publishTime="10/04/2008 22:04:46" />
+    <file relUrl="Web.config" publishTime="10/04/2008 22:03:18" />
+  </publishTarget>
+</publishData>

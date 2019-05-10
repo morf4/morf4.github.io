@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>jonathanm</author>
+  <title>New Blog? Sort of....</title>
+  <description />
+  <content>&lt;p&gt;
+This&amp;nbsp;is&amp;nbsp; a ASP.NET blog. It too will be replaced by a combination of ASP.NET and Silverlight&amp;nbsp;by December. As far as the old blog I will post only the important stuff in July. things such as.. 
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Videos&lt;/li&gt;
+	&lt;li&gt;Code Samples&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I will keep the old blog so if there is anything you want to know just let me know. 
+&lt;/p&gt;
+</content>
+  <ispublished>True</ispublished>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2008-06-19 19:18:00</pubDate>
+  <lastModified>2008-06-19 21:01:53</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>New-Blog-Sort-of</slug>
+  <tags>
+    <tag>silverlight</tag>
+    <tag>.net framework</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>c18e0167-4a74-4704-9e72-6d07d1f5d3eb</category>
+  </categories>
+  <notifications />
+</post>

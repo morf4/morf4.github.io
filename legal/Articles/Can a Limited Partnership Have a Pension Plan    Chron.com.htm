@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/style.css" type="text/css"><link rel="shortcut icon" href="https://smallbusiness.chron.com/favicon.ico"><link rel="icon" href="https://smallbusiness.chron.com/favicon.ico"><!-- Custom Dimension dataLayer --><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/apstag.js"></script><script async="" type="text/javascript" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/gpt.js"></script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/Bootstrap.js" id="partner_tag_loader"></script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/embedcode.js" id="partner_video_loader" data-type="s2nScript"></script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/custom.js"></script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/gtm.js"></script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/loader.txt" id="tb_loader_script"></script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/GetJS.htm" id="partner_ad_render"></script><script title="dataLayer" type="text/javascript">[{"pagetype": "Article","subpagetype": "Topic View","studioid": "341ffeaf-99d9-4234-af2e-42b4f63750e4","content_name": "Can a Limited Partnership Have a Pension Plan?","publish_date": "2013-03-19 04:31:13.487000","rating": "4","author": "Tim Plaehn","structure_rating": "4","ancestor_category1": "Limited Liability Partnerships","ancestor_category2": "Business Models &amp; Organizational Structure","ancestor_category3": "Small Business","category": "Finance","has_image" : "TRUE","keyword1":"limited partnership profits","keyword2":"partnership retirement plan","keyword3":"small business partnership"}]</script><script type="text/javascript">
+    var dataLayer = JSON.parse ( document.querySelectorAll("script[title=dataLayer]")[0].innerHTML );
+
+    // Remove dataLayer keys that have no value for the given page
+    for (var key in dataLayer[0]) {
+        if (dataLayer[0].hasOwnProperty(key)) {
+            if (dataLayer[0][key] == "") {
+                delete dataLayer[0][key];
+            }
+        }
+    }
+</script><!-- End Custom Dimension dataLayer --><script type="text/javascript">
+  // Determine WebP Support
+// Adapted from https://github.com/Modernizr/Modernizr/blob/master/feature-detects/img/webp.js
+(function() {
+	webp_flag = false;
+ 	var image = new Image();
+	image.src = 'data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAUAgCdASoBAAEAL/3+/3+CAB/AAAFzrNsAAP5QAAAAAA==';
+	image.onload = function() {
+		webp_flag = (image.width == 1);
+	}
+})();
+
+if (typeof $ !== 'undefined'){
+	// Lazy Load Images
+	$.fn.lazyImage = function(callback) {
+		var imgLen = this.length,
+				count = 0;
+		return this.each(function() {
+			if ($(this).attr('data-src')) {
+				var imgTag = this, imgSrc = $(this).attr('data-src'), del;
+				if (webp_flag) {
+					// Checks that image is using DM Resize and is not a .gif file
+					if (imgSrc.match(/DM\-Resize/g) && imgSrc.match(/webp=1/g) && (imgSrc.indexOf('.gif') == -1)) {
+						imgSrc = imgSrc + '&format=webp&quality=80';
+					}
+				}
+				i = new Image();
+				i.onload = function() {
+					$(imgTag).attr('src',imgSrc).fadeTo(400,1,function() {
+						(count += 1) && (imgLen == count) && (typeof callback == 'function') && callback.call(this);
+					});
+				};
+				i.src = imgSrc;
+			}
+		});
+	};
+
+	// Post Load Scripts
+	function lazyScript(check, url, callback) {
+		if ( ! check() ) { return; }
+		$.ajax({
+			url: url,
+			dataType: 'script',
+			success: callback,
+			cache: true
+		});
+	};
+}
+
+
+
+// *** helper functions for removing jquery *** //
+
+// cross-browser doc ready function
+function docReady(callback) {
+	if (document.readyState != 'loading'){
+		callback();
+	} else if (document.addEventListener) {
+		document.addEventListener('DOMContentLoaded', callback);
+	} else {
+		document.attachEvent('onreadystatechange', function() {
+			if (document.readyState != 'loading')
+				callback();
+		});
+	}
+}
+
+// cross-browser add event listener (IE8)
+function addListener(el, eventName, handler) {
+	if (el && el.addEventListener)
+		el.addEventListener(eventName, handler);
+	else if (el && el.attachEvent) {
+		el.attachEvent('on' + eventName, function(){
+			handler.call(el);
+		});
+	} else
+		return false;
+		//console.error("couldn't attach event: " + eventName + " to element: " + el);
+}
+
+function removeClass(el, className){
+	if (el && el.classList)
+		el.classList.remove(className);
+	else if (el)
+		el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+	else
+		return false;
+		//console.error("couldn't remove class: " + className + " from element: " + el);
+}
+
+function addClass(el, className){
+	if (el && el.classList)
+	  el.classList.add(className);
+	else if (el)
+	  el.className += ' ' + className;
+	else
+		return false;
+		//console.error("couldn't add class: " + className + " to element: " + el);
+}
+
+function hasClass(el, className){
+	if (el && el.classList)
+	  return el.classList.contains(className);
+	else if (el)
+	  return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+	else
+		return null;
+}
+
+function getIndex(el){
+  let i = 0;
+  while (el.previousSibling != null){
+    if (el.previousSibling.nodeType == 1){
+      // only count actual elements, not text nodes
+      i++;
+    }
+    el = el.previousSibling;
+  }
+  return i;
+}
+
+//add forEach support for IE 8
+if (typeof Array.prototype.forEach != 'function') {
+  Array.prototype.forEach = function(callback){
+    for (var i = 0; i < this.length; i++){
+      callback.apply(this, [this[i], i, this]);
+    }
+  };
+}
+</script><!-- Bing Webmaster Tool Auth --><meta name="msvalidate.01" content="129B5DE6FF8DD0ECBDD457C93FF101E3"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html",
+  "url": "https://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html",
+  "name":"Can a Limited Partnership Have a Pension Plan?",
+  "breadcrumb":{
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Website",
+          "@id": "https://smallbusiness.chron.com/limited-liability-partnerships/",
+          "url": "https://smallbusiness.chron.com/limited-liability-partnerships/",
+          "name": "Limited Liability Partnerships"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Website",
+          "@id": "https://smallbusiness.chron.com/business-models-organizational-structure/",
+          "url": "https://smallbusiness.chron.com/business-models-organizational-structure/",
+          "name": "Business Models &amp; Organizational Structure"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Website",
+          "@id": "https://smallbusiness.chron.com/",
+          "url": "https://smallbusiness.chron.com/",
+          "name": "Small Business"
+        }
+      }
+    ]
+  },
+  "inLanguage":"en-US",
+  "mainEntity":{
+    "@type":"Article",
+    "@id": "https://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html",
+    "url": "https://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html",
+    "mainEntityOfPage": "true",
+    "datePublished":"2013-03-19 10:34:00",
+    "dateModified":"2016-10-26 17:33:21.981000",
+    "headline": "Can a Limited Partnership Have a Pension Plan?",
+    "description":"Can a Limited Partnership Have a Pension Plan?. A small business can be organized as a sole proprietorship, partnership, corporation or LLC. The tax and employee benefit rules allow a small business of any structure to set up a pension plan for employees. For a company organized as a partnership, the tax rules do make a difference between types of partners, and limited partners may not be allowed to participate in a retirement plan.",
+    "keywords": "limited partnership profits, partnership retirement plan, small business partnership",
+    "Publisher": {
+      "@type": "Organization",
+      "name": "Chron.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://smallbusiness.chron.com/images/channel-logo.png"}
+    },
+    "Author":{
+      "@type":"person",
+      "name":"Tim Plaehn"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://photos.demandstudios.com/getty/article/149/112/BU000945_XS.jpg",
+      "height": "400",
+      "width": "400"
+    }
+  }
+}
+</script><title>Can a Limited Partnership Have a Pension Plan? | Chron.com</title><meta name="description" content="A small business can be organized as a sole proprietorship, partnership, corporation or LLC. The tax and employee benefit rules allow a small business of any structure to set up a pension plan for employees. For a company organized as a partnership, the tax rules do make a difference between types of partners, and ..."><meta property="og:type" content="article"><meta property="og:description" content="A small business can be organized as a sole proprietorship, partnership, corporation or LLC. The tax and employee benefit rules allow a small business of any structure to set up a pension plan for employees. For a company organized as a partnership, the tax rules do make a difference between types of partners, and ..."><meta property="og:title" content="Can a Limited Partnership Have a Pension Plan?"><meta property="og:image" content="//img-aws.ehowcdn.com/340x221p/photos.demandstudios.com/getty/article/149/112/BU000945.jpg"><link rel="canonical" href="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/can-limited-partnership-pension-plan-63218.htm"><script type="text/javascript">
+        var adwiz_errors = '',
+            JuicePageUrl = "",
+	    taxOverride = null,
+            secOverride = null,
+	    cccOverride = null,
+	    YSMTier,
+	    YSMCategory,
+	    APSpageUrl,
+	    juice_errors = "";
+        
+
+	var juiceURL = (window.location.href.slice(-1) === '/') ?  window.location.href.slice(0,-1) :  window.location.href;
+	juiceURL = (juiceURL.toLowerCase().indexOf('http://') == 0) ?  juiceURL.substr(7, juiceURL.length) : juiceURL;
+	juiceURL = (juiceURL.toLowerCase().indexOf('https://') == 0) ?  juiceURL.substr(8, juiceURL.length) : juiceURL;
+	juiceURL = juiceURL.substr(0, 300);
+        JuicePageUrl = juiceURL;	   
+
+        !function (e, f, u, i) {
+          if (!document.getElementById(i)){
+            e.async = 1;
+            e.src = u;
+            e.id = i;
+            f.parentNode.insertBefore(e, f);
+          }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+	"https://aps.hearstnp.com/SRO/GetJS?url="+ juiceURL,
+        'partner_ad_render');
+
+        var VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+
+
+        var scriptSrc;
+        if (VIEWPORT_WIDTH < 775) {
+            // Mobile script src
+            scriptSrc = '//cdn.taboola.com/libtrc/hearstlocalnews-chronmobile/loader.js ';
+        } else {
+            // Desktop script src
+            scriptSrc = '//cdn.taboola.com/libtrc/hearstlocalnews-chron/loader.js ';
+        }
+        window._taboola = window._taboola || [];
+        _taboola.push({other:'auto'});
+        !function (e, f, u, i) {
+        if (!document.getElementById(i)){
+          e.async = 1;
+          e.src = u;
+          e.id = i;
+          f.parentNode.insertBefore(e, f);
+        }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        scriptSrc,
+        'tb_loader_script');
+        if(window.performance && typeof window.performance.mark == 'function')
+        {window.performance.mark('tbl_ic');}
+    </script><script type="text/javascript" async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/callbackextractPid"></script></head> <body id="article-template" class="smallbusiness article topic-view"> <!-- body-top --> <!-- google tag manager --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGZCHF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WGZCHF');</script> <!-- end google tag manager --><!-- end body-top --><header id="header" class="clearfix"><style>
+.site-nav {
+    background: #000;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+.shadow-nav {
+    -moz-box-shadow: 0 3px 4px -2px #222;
+    -webkit-box-shadow: 0 3px 4px -2px #222;
+    box-shadow: 0 3px 4px -2px #222;
+    height: 10px;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    z-index: 401;
+}
+.site-nav .innerWrap {
+    display: flex;
+    float: none;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+ul.topnav {
+    clear: both;
+    display: flex;
+    height: 50px;
+    list-style: none;
+    z-index: 400;
+}
+ul.topnav li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+ul.topnav li a {
+    color: #FFF;
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-style: bold;
+    font-family: 'RobotoBold',arial,sans-serif;    
+}
+.no-mobile-header {
+    width: 120px;
+}
+li.home.mobile-header {
+    width: 120px;
+    margin-right: 60px;
+}
+
+li.mobile-back-button.mobile-header {
+   display: none;		    
+}
+.mobile-logo { 
+   background: url("https://www.chron.com/img/logo.svg") no-repeat;
+   background-position: 0 0;
+   background-size: 138px 84px;
+   margin-bottom: -moz-calc((55px - 28px) / 2);
+   margin-bottom: -webkit-calc((55px - 28px) / 2);
+   margin-bottom: -o-calc((55px - 28px) / 2);
+   margin-bottom: calc((55px - 28px) / 2);
+   margin-top: -moz-calc((55px - 28px) / 2);
+   margin-top: -webkit-calc((55px - 28px) / 2);
+   margin-top: -o-calc((55px - 28px) / 2);
+   margin-top: calc((55px - 28px) / 2);
+   display: flex;
+   float: left;
+   height: 28px;
+   margin-left: auto;
+   margin-right: auto;
+   webkit-transform: rotate(0deg);
+   moz-transform: rotate(0deg);
+   ms-transform: rotate(0deg);
+   o-transform: rotate(0deg);
+   transform: rotate(0deg);
+   width: 138px;
+}
+.leaderboard {
+    display: block;
+    height: 90px;
+    padding: 2px 0 2px 0;
+    float: none;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+@media (max-width: 980px)  {
+ .leaderboard,
+ .no-mobile-header {
+    display: none;
+ }
+
+ .hst-siteheader {
+    top: 0;
+    position: fixed;
+    z-index: 40;
+    width: 100%;
+ }
+ 
+ li.home.mobile-header {
+    margin-left: 25px;
+    text-align: center;
+ }
+
+ li.mobile-back-button.mobile-header {
+    display: flex;
+    margin-left: 12px;
+ }
+
+ #page {
+    margin-top: 50px;
+ }
+}
+</style> <div class="leaderboard"><!-- Begin Hearst Ad --> <div id="A728"></div> <!-- End Hearst Ad --></div> <div class="hst-siteheader"> <nav id="siteNav" class="site-nav"> <div class="shadow-nav"></div> <div class="innerWrap"> <ul class="topnav"> <li class="mobile-back-button mobile-header"> <a href="https://smallbusiness.chron.com/" data-event="back nav"> <svg height="40" width="25" viewBox="0 0 40 25"> <path style="stroke:white;stroke-width:5;fill:none;" d="M25 40 L3 20 L25 0"></path> </svg> </a> </li> <li class="home mobile-header"> <a href="https://www.chron.com/" target="_blank"> <div class="mobile-logo"></div></a> </li> <li class="no-mobile-header"><a href="http://www.chron.com/news/houston-texas/">Local</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/news/nation-world/">US &amp; World</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/sports/">Sports</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/business/">Business</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/entertainment/">A&amp;E</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/life/">Life</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/jobs/">Jobs</a></li> <li class="no-mobile-header"><a href="https://cars.chron.com/">Cars</a></li> <li class="no-mobile-header"><a href="http://www.chron.com/homes/">Real Estate</a></li> </ul> </div> </nav> </div></header> <div id="page"><a href="#main" id="skipLink">Skip to main content.</a><div id="content" class="clearfix"><nav id="breadcrumbs"> <ol class="clearfix"> <li> <a href="https://smallbusiness.chron.com/"> Small Business</a><span class="sep">»</span></li> <li> <a href="https://smallbusiness.chron.com/business-models-organizational-structure/"> Business Models &amp; Organizational Structure</a><span class="sep">»</span></li> <li> <a href="https://smallbusiness.chron.com/limited-liability-partnerships/"> Limited Liability Partnerships</a><span class="sep">»</span></li> </ol> </nav><div id="main"> <header id="title"> <h1>Can a Limited Partnership Have a Pension Plan?</h1> <cite> <i>by Tim Plaehn</i> </cite> </header> <article id="article-section"> <div id="top-image" class="clearfix"> <figure id="main-article-photo" class="article-image"> <img src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/BU000945.jpg" alt="Benefits will vary for different types of business partners." title="Keith Brofsky/Photodisc/Getty Images"> <figcaption class="article-image-credits"> <p class="photo-cap">Benefits will vary for different types of business partners.</p> <p class="photo-attribution">Keith Brofsky/Photodisc/Getty Images</p> </figcaption> </figure><div id="related-articles"> <h3>Related Articles</h3> <ul> <li><span>1 </span><a href="https://smallbusiness.chron.com/make-retirement-contributions-llc-78796.html"> Make Retirement Contributions From an LLC</a></li> <li><span>2 </span><a href="https://smallbusiness.chron.com/dissolve-business-partnership-due-embezzlement-75393.html"> Dissolve a Business Partnership Due to Embezzlement</a></li> <li><span>3 </span><a href="https://smallbusiness.chron.com/tax-deduction-benefits-limited-partnership-4424.html">Tax Deduction Benefits of a Limited Partnership</a></li> <li><span>4 </span><a href="https://smallbusiness.chron.com/tax-benefits-partnership-22403.html">Tax Benefits of a Partnership</a></li> </ul> </div> </div> <div id="section-0" class="section summary"><p></p><p>A
+ small business can be organized as a sole proprietorship, partnership, 
+corporation or LLC. The tax and employee benefit rules allow a small 
+business of any structure to set up a pension plan for employees. For a 
+company organized as a partnership, the tax rules do make a difference 
+between types of partners, and limited partners may not be allowed to 
+participate in a retirement plan.</p><p></p> </div> <script>
+		var VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+		if (VIEWPORT_WIDTH > 500) {
+
+
+		       
+   	                  document.write('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt><ins class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:390px;width:100%;height:125px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="1166178349"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</scr'+'ipt>');
+
+		    
+
+		 
+		} else {
+
+		       
+		          document.write('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3235755782694080" data-ad-slot="6655448747" data-ad-format="link"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</scr'+'ipt>');
+
+		    
+		}
+		</script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:390px;width:100%;height:125px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="1166178349"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script> <div id="section-1" class="section"><h2>Employer-Sponsored for Employees</h2> <p></p><p>The
+ types of pension plans that can be used by a small business include 
+401(k), SEP-IRA, SIMPLE IRA and defined-benefit plans. Most small 
+businesses go with the defined contribution plans such as a 401(k) or 
+IRA based plan rather than the traditional but complicated and expensive
+ defined-benefit plan. A pension plan set up by a business is for the 
+benefit of employees, which can include the owners or partners in the 
+business.</p><p></p> </div><div id="section-2" class="section"><h2>Partners As Owners And Employees</h2> <p></p><p>When
+ a business is organized as a partnership, a partner typically is viewed
+ in two ways by the Internal Revenue Service. As an owner, a partner's 
+compensation is her share of the net profits of the business. The 
+partner does not earn wages nor receive a W-2 at the end of the year. 
+Instead, the partner receives a report of her proportionate share of 
+business expenses and earnings to claim on her personal tax return. 
+However, when it comes to benefits, a managing partner participates like
+ an employee and is covered under the company's health plan and is a 
+participant in the partnership-sponsored retirement savings plan.</p><p></p> <script>
+		var VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+		if (VIEWPORT_WIDTH > 500) {
+
+	   	            document.write('<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr'+'ipt><!-- SMALLBUSINESS_LOWLINE --><ins class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:1200px;width:100%;height:75px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="1530628549"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</scr'+'ipt>');	        
+		} 
+		</script><script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/adsbygoogle.js"></script><!-- SMALLBUSINESS_LOWLINE --><ins class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:1200px;width:100%;height:75px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="1530628549"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div><div id="section-3" class="section"><h2>Limited Partner Limits</h2> <p></p><p>Partnerships
+ may have several different types of partners and compensate partners 
+differently. For a partner who works to run and manage a business, his 
+earnings from the business are viewed as earned income for tax purposes.
+ With the earned income, the partner also fills the employee 
+requirements for benefits. A limited partner, because he does not work 
+or provide service toward the daily operation of the business, is more 
+of an investor, and the money paid by a business to a limited partner 
+would be classified as investment income. Limited partners would not 
+participate in the company pension plan.</p><p></p> </div><div id="section-4" class="section"><h2>Real World Example</h2> <p></p><p>A
+ visible example of limited partnerships and pension plans are the 
+publicly traded partnerships in which investors can buy into through 
+shares -- technically called units -- trading on the stock exchanges. In
+ this case, there is a company with employees that participate in 
+whatever pension plan the company offers. Investors own limited 
+partnership units in their brokerage accounts and are not part of any 
+employee benefits.</p><p></p> </div> <script>
+        var ad_height,
+            adblocked_ad_height,
+            VIEWPORT_WIDTH = document.documentElement.clientWidth || document.body.clientWidth;
+
+        if (VIEWPORT_WIDTH > 500) {
+            ad_height = '455px';
+            adblocked_ad_height = '250px';
+        } else {
+            ad_height = '550px';
+            adblocked_ad_height = '425px';
+        }
+    </script> <script async="" src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/adsbygoogle.js"></script> <div id="google-article-block" class="main-ad pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links"> <!-- WORK_MAIN --> <ins id="ggads" class="adsbygoogle" style="display: inline-block; min-width: 320px; max-width: 1200px; width: 100%; height: 455px;" data-ad-client="ca-pub-3235755782694080" data-ad-slot="2642911548"> </ins> <script>
+        document.getElementById('ggads').style.height = ad_height;
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script> </div> <div id="adReplacement"></div> <style>
+      /* This style seem important, DO NOT REMOVE */
+      #adReplacement {
+        display: block !important;
+      }
+
+      #adReplacement script, .adsbygoogle script, .inline-ad script {
+       display: none !important;
+      }
+    </style> <script src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/detectab.js"></script> <script>
+      function replaceAds(){
+          var mainAd = document.querySelector('#google-article-block');
+          var linkAd = document.querySelector('#radlinks');
+
+          document.write = function(content) {
+              document.querySelector('#adReplacement').innerHTML = content;
+          }
+
+          mainAd.parentNode.removeChild(mainAd);
+          linkAd.parentNode.removeChild(linkAd);
+
+          document.write('<ins id="ggabads" class="adsbygoogle" style="display:inline-block;min-width:320px;max-width:1200px;width:100%;height:250px" data-ad-client="ca-pub-3235755782694080" data-ad-slot="3138963539"></ins>');
+
+          document.getElementById('ggabads').style.height = adblocked_ad_height;
+
+          var adBlockLinkUnit = '<ins class="adsbygoogle" style="display:block;height:190px;" data-ad-client="ca-pub-3235755782694080" data-ad-slot="8467311836" data-ad-format="link" data-full-width-responsive="true"></ins>';
+          document.querySelector('#adblock-link-unit').innerHTML = adBlockLinkUnit;
+
+         (adsbygoogle = window.adsbygoogle || []).push({});
+          adsbygoogle.push({});
+
+          // Display sidebar ad
+          // window._taboola = window._taboola || [];
+          // _taboola.push({
+          //   mode: 'thumbnails-rr-abp-mode',
+          //   container: 'taboola-right-rail-abp-thumbnails',
+          //   placement: 'Right Rail ABP Thumbnails'
+          // });
+
+      }
+    docReady(function() {
+      AdblockPlus.detect("px.gif", function(usesABP)
+      {
+        if (usesABP) {
+          replaceAds();
+        } else {
+          // window._taboola = window._taboola || [];
+          // _taboola.push({mode:'thumbs-2r', container:'taboola-below', placement:'below'});
+        }
+
+      });
+    });
+    </script> <!-- Taboola --> <div id="taboola-below-article-thumbnails"></div> <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({
+        mode: 'thumbnails-a',
+        container: 'taboola-below-article-thumbnails',
+        placement: 'Below Article Thumbnails - Demand',
+        target_type: 'mix'
+      });
+    </script> <div class="s2nFriendlyFrame k-VtBBB6Nk" data-type="float" style="width: 638px; height: 383px; position: relative;"><div class="s2nPlayerFrame" style="visibility: hidden; position: fixed; left: auto; right: 792.5px; top: auto; bottom: -1259.5px; width: 400px; height: 250px; transform: translate(792.5px, -1259.5px); z-index: 2147483647;"><iframe allow="autoplay *; fullscreen *" id="VtBBB6Nk-1" scrolling="no" allowfullscreen="true" style="height:100%; width:1px; min-width:100%; margin:0 auto; padding:0; display:block; border:0 none;" src="javascript:false" frameborder="0"></iframe></div></div> <div id="references2" class="section"> <h4>References <span id="references_count">(3)</span></h4> <ul><li><a href="http://www.irs.gov/Retirement-Plans/Retirement-Plan-FAQs-Regarding-Contributions---What-is-a-partner%E2%80%99s-%E2%80%9Ccompensation%E2%80%9D-for-retirement-plan-purposes%3F" rel="nofollow">Internal
+ Revenue Service: Retirement Plan FAQs Regarding Contributions - What is
+ a Partner’s “Compensation” for Retirement Plan Purposes?</a></li><li><a href="http://www.irs.gov/publications/p560/ch01.html#en_US_2012_publink10008810" rel="nofollow">Internal Revenue Service: Publication 560: Definitions You Need to Know</a></li><li><a href="http://www.dol.gov/ebsa/publications/choosing.html" rel="nofollow">U.S Department of Labor: Choosing a Retirement Solution for Your Small Business</a></li></ul> </div> <div id="author" class="section"> <h4>About the Author</h4> <p>Tim
+ Plaehn has been writing financial, investment and trading articles and 
+blogs since 2007. His work has appeared online at Seeking Alpha, 
+Marketwatch.com and various other websites. Plaehn has a bachelor's 
+degree in mathematics from the U.S. Air Force Academy.</p> </div> <div id="photo-credits" class="section"> <h4>Photo Credits</h4> <ul> <li>Keith Brofsky/Photodisc/Getty Images</li> </ul> </div> <link type="text/css" media="all" rel="stylesheet" href="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/citation.css"> <div class="citation-widget"> <svg xmlns="https://www.w3.org/2000/svg" xlink="https://www.w3.org/1999/xlink" width="76px" height="76px" viewBox="0 0 76 76" version="1.1"> <title>bibliography-icon</title> <desc>icon for annotation tool</desc> <defs></defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Group"> <circle id="bg-circle" class="custom-color" fill="#4A90E2" cx="38" cy="38" r="38"></circle> <rect id="Rectangle" stroke="#FFFFFF" x="11.5" y="22.5" width="53" height="35"></rect> <rect id="Rectangle" stroke="#FFFFFF" x="13.5" y="22.5" width="49" height="33"></rect> <path d="M14.7328644,23.3720185 C22.8457736,17.6981969 30.3790829,17.6981969 37.3327922,23.3720185 L37.3327922,54.8402725 C31.3602309,51.0400934 23.8269216,51.0400934 14.7328644,54.8402725 C14.7328644,47.4609893 14.7328644,30.457963 14.7328644,23.3720185 Z" id="Rectangle-2" fill="#FFFFFF"></path> <path d="M38.6201299,23.3720185 C46.6931823,17.9421802 54.2264916,17.9421802 61.2200578,23.3720185 C61.2200578,31.6776931 61.2200578,50.9587036 61.2200578,54.8402725 C54.6284121,50.5387171 47.0951028,50.5387171 38.6201299,54.8402725 L38.6201299,23.3720185 Z" id="Rectangle-2" fill="#FFFFFF"></path> <polygon id="bookmark" class="custom-color" fill="#4A90E2" points="41 19 46 19 46 47 43.5 44.8716033 41 47"></polygon> </g> </g> </svg> Cite this Article <div class="popup"> <h5>Choose Citation Style</h5> <button class="choose-style active" data-style="MLA">MLA</button> <button class="choose-style" data-style="APA">APA</button> <button class="choose-style" data-style="Chicago">Chicago (B)</button> <div class="output"> <div class="style MLA active"> Plaehn, Tim. "Can a Limited Partnership Have a Pension Plan?" <em>Small Business - Chron.com</em>, http://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html. Accessed 08 December 2018. </div> <div class="style APA"> Plaehn, Tim. (n.d.). Can a Limited Partnership Have a Pension Plan? <em>Small Business - Chron.com</em>. Retrieved from http://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html </div> <div class="style Chicago">
+ Plaehn, Tim. "Can a Limited Partnership Have a Pension Plan?" accessed 
+December 08, 2018. 
+http://smallbusiness.chron.com/can-limited-partnership-pension-plan-63218.html
+ </div> </div> <button class="copy-citation">Copy Citation</button> <div class="copied-flash">Note: Depending on which text editor you're pasting into, you might have to add the italics to the site name.</div> </div> </div><div ub-in-page="5a39c0b58195f8259e0b5c24"></div> </article> </div> <aside id="sidebar"> <div id="adblock-link-unit"></div> <div id="radlinks" class="widget"><!-- SMALLBUSINESS_LINK --> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3235755782694080" data-ad-slot="5742379214" data-ad-format="link"></ins> <script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script> </div> <div id="top-300" class="widget"><div id="A300"></div> </div> <div id="more-read" class="widget clearfix"> <h3><span>More</span> Articles</h3> <ul> <li class="clearfix"><a href="https://smallbusiness.chron.com/50-50-partnership-agreement-3914.html"> <img src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/102384458.jpg" alt="[Partnership Agreement] | What Is a 50/50 Partnership Agreement?" title="[Partnership Agreement] | What Is a 50/50 Partnership Agreement?" width="137" height="77"> <p>What Is a 50/50 <span style="color:#EA4A12;">Partnership Agreement</span>?</p> </a></li> <li class="clearfix"><a href="https://smallbusiness.chron.com/buyout-business-partner-20093.html"> <img src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/78155284.jpg" alt="[Business Partner] | How to Buyout a Business Partner" title="[Business Partner] | How to Buyout a Business Partner" width="137" height="77"> <p> Buyout a <span style="color:#EA4A12;">Business Partner</span></p> </a></li> <li class="clearfix"><a href="https://smallbusiness.chron.com/sell-ownership-partnership-78743.html"> <img src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/200564235-001.jpg" alt="[Ownership] | How to Sell Ownership in a Partnership" title="[Ownership] | How to Sell Ownership in a Partnership" width="137" height="77"> <p> Sell <span style="color:#EA4A12;">Ownership</span> in a Partnership</p> </a></li> <li class="clearfix"><a href="https://smallbusiness.chron.com/register-joint-ownership-business-16279.html"> <img src="Can%20a%20Limited%20Partnership%20Have%20a%20Pension%20Plan%20%20%20%20Chron.com_files/89986746.jpg" alt="[Ownership Business] | How to Register a Joint Ownership Business" title="[Ownership Business] | How to Register a Joint Ownership Business" width="137" height="77"> <p> Register a Joint <span style="color:#EA4A12;">Ownership Business</span></p> </a></li> </ul> </div> <div id="bottom-300" class="widget"><!-- Begin Hearst Ad --> <div id="B300"></div> <!-- End Hearst Ad --></div> <div id="also-viewed" class="widget"> <h3><span>Also</span> Viewed</h3> <ul> <li><a href="https://smallbusiness.chron.com/rules-partnership-agreement-24228.html"> Rules of a <span style="color:#EA4A12;">Partnership Agreement</span> </a></li> <li><a href="https://smallbusiness.chron.com/problems-family-limited-partnership-3108.html"> What Are the Problems with a <span style="color:#EA4A12;">Family Limited Partnership</span>? </a></li> <li><a href="https://smallbusiness.chron.com/characteristics-limited-liability-company-3676.html"> Characteristics of a Limited <span style="color:#EA4A12;">Liability Company</span> </a></li> <li><a href="https://smallbusiness.chron.com/features-limited-liability-partnership-4428.html"> Features of a <span style="color:#EA4A12;">Limited Liability Partnership</span> </a></li> <li><a href="https://smallbusiness.chron.com/partners-withdrawal-assets-limited-liability-partnership-71764.html"> A Partner's Withdrawal of Assets From a Limited <span style="color:#EA4A12;">Liability Partnership</span> </a></li> <li><a href="https://smallbusiness.chron.com/definition-managing-partner-llc-39933.html"> Definition of a <span style="color:#EA4A12;">Managing Partner</span> of an LLC </a></li> <li><a href="https://smallbusiness.chron.com/calculate-partnership-basis-foreign-tax-credit-16605.html"> Calculate a <span style="color:#EA4A12;">Partnership Basis Foreign Tax Credit</span> </a></li> </ul> </div> <div id="s-300" class="widget"><!-- Begin Hearst Ad --> <div id="S300"> </div> <!-- End Hearst Ad --></div> </aside> </div><footer class="clearfix"><footer> <div class="hdnce-e hdnce-item-41834"><!-- mid:freeform.41834 --> <div class="header"> <span class="logo">Logo</span> <span class="top"><a href="#">Return to Top</a></span> </div> <div class="body"> <div class="about"> <h3>About</h3> <ul> <li><a href="https://www.hearst.com/newspapers/houston-chronicle">Our Company</a></li> <li><a href="https://www.chron.com/careers">Careers</a></li> <li><a href="https://marketing.chron.com/home">Advertise with Us</a></li> <li><a href="https://www.aboutads.info/choices/" class="adchoices">Ad Choices</a></li> <li><a href="https://www.chron.com/terms_of_use/">Terms &amp; Conditions</a></li> <li><a href="https://www.chron.com/privacy_policy/">Privacy Policy</a></li> <li><a href="https://www.chron.com/privacy_policy/#caprivacyrights">Your California Privacy Rights</a></li> </ul> </div> <div class="contact"> <h3>Contact</h3> <ul> <li><a href="https://myaccount.houstonchronicle.com/FAQ.aspx">Customer Service</a></li> <li><a href="https://www.chron.com/about/newsroom/">Newsroom Contacts</a></li> </ul> </div> <div class="connect"> <h3>Connect</h3> <ul> <li><a href="https://www.chron.com/newsletters/">Email Newsletter</a></li> <li><a href="https://www.facebook.com/chroncom" class="facebook">Facebook</a></li> <li><a href="https://twitter.com/houstonchron" class="twitter">Twitter</a></li> <li><a href="https://www.pinterest.com/houstonchron/" class="pinterest">Pinterest</a></li> <li><a href="https://plus.google.com/+houstonchronicle/posts" class="google">Google</a></li> <li><a href="https://instagram.com/houstonchron/" class="instagram">Instagram</a></li> </ul> </div> <div class="subscribe"> <h3>Subscribe</h3> <ul> <li><a href="https://www.chron.com/ipad/">iPad app</a></li> <li><a href="https://www.houstonchronicle.com/">HoustonChronicle.com</a></li> <li><a href="https://www.houstonchronicle.com/archive">Houston Chronicle Archives</a></li> <li><a href="https://digital.olivesoftware.com/Olive/ODN/HoustonChronicleDemo/">eEdition Demo</a></li> <li><a href="https://digital.olivesoftware.com/Olive/ODN/houstonchronicle/Default.aspx">Today's eNewspaper</a></li> </ul> </div> </div> <div class="footer"> <span class="logo">Hearst Newspapers</span> <span class="copyright">© Copyright 2018 Hearst Newspapers, LLC</span> </div> </div> </footer> </footer></div><script>(function(d,t){var cjs=d.createElement(t),dhd=d.getElementsByTagName(t)[0];cjs.async=1;cjs.src='//smallbusiness.chron.com/scripts/custom.js';dhd.parentNode.insertBefore(cjs,dhd);}(document,'script'));</script> <script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script><script type="text/javascript">
+	var EU = document.cookie.split(';').filter(function(item) { return item.indexOf('region=EU') >= 0 }).length;
+
+
+        if (!EU) {
+
+
+
+    	   if (window.location.href.indexOf('work.chron.com') > -1) {
+	       	 var videoSrc = "//embed.sendtonews.com/player3/embedcode.js?fk=TnRwhbkw&cid=8188&offsetx=0&offsety=0&floatwidth=400&floatposition=bottom-right";
+
+	   } else if (window.location.href.indexOf('smallbusiness.chron.com') > -1) {
+	       	 var videoSrc = "//embed.sendtonews.com/player3/embedcode.js?fk=VtBBB6Nk&cid=8187&offsetx=0&offsety=0&floatwidth=400&floatposition=bottom-right";
+
+	   } else if (window.location.href.indexOf('livehealthy.chron.com') > -1) {
+	       	 var videoSrc = "//embed.sendtonews.com/player3/embedcode.js?fk=Yp2dIWI1&cid=8416&offsetx=0&offsety=0&floatwidth=400&floatposition=bottom-right";
+
+	   }
+
+           !function (e, f, u, i) {
+              if (!document.getElementById(i)){
+                e.async = 1;
+                e.src = u;
+                e.id = i;
+       	   	e.setAttribute('data-type', 's2nScript');
+                f.parentNode.insertBefore(e, f);
+              }
+           }(document.createElement('script'),
+	     document.getElementsByTagName('script')[0],
+       	     videoSrc,
+             'partner_video_loader');
+
+
+
+	}
+
+        !function (e, f, u, i) {
+          if (!document.getElementById(i)){
+            e.async = 1;
+            e.src = u;
+            e.id = i;
+            f.parentNode.insertBefore(e, f);
+          }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+	"//nexus.ensighten.com/hearst/news-3p/Bootstrap.js",
+        'partner_tag_loader');
+</script>  </body></html>

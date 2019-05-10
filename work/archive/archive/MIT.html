@@ -1,0 +1,39 @@
+---
+title: jdm7dv's Github Repositories
+description: 
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <title>{{ page.title }}</title>
+    <link href="assets/css/styles.scss" media="all" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body>
+    <header class="header">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.description }}</h2>
+    </header>
+
+    <ul class="portfolio">
+      {% for repository in site.github.public_repositories %}
+        <li class="repo  repo--{{ repo.language | downcase }}">
+            <h3><a href="{{ repo.homepage }}">{{ repository.name }}</a></h3>
+            <p>{{ repo.description }}</p>
+            <a class="button" href="{{ repo.html_url }}/archive/{{ repo.default_branch }}.zip">Download</a>
+            <a class="button" href="{{ repo.html_url }}">Fork it</a>
+            <a class="button" href="{{ repo.html_url }}">Clone it</a>
+            <aside class="details">
+              <span>{{ repo.stargazers_count }}</span>
+              <span>{{ repo.forks_count }}</span>
+              <span>{{ repo.clone_count }}</span> 
+            </aside>
+          </li>
+        
+        
+            {% endfor %}
+    </ul>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>jonathanm</author>
+  <title>HTMLPage class</title>
+  <description />
+  <content>&lt;font face="times new roman,times" size="2"&gt;The Sphinx Logic site is currently under development using Silverlight 2 beta 2. By the time its done 2.0 should be released. An issue with the Silverlight class HTMLWindow came up. So I emailed Scott Guthrie and Wilco Bauwer at Microsoft for some help. Even though HTMLWindow has a Navigate method defined, you must use HtmlPage.Window.Navigate(&lt;/font&gt;&lt;a href="http://www.jonathanmoore.net/"&gt;&lt;font face="times new roman,times" size="2"&gt;www.jonathanmoore.net&lt;/font&gt;&lt;/a&gt;&lt;font face="tahoma,arial,helvetica,sans-serif" size="2"&gt;&lt;font face="times new roman,times"&gt;); to get the link to work. This is in C# by the way. Thanks guys!&lt;/font&gt;&amp;nbsp; The code is in the Code Samples section.&lt;/font&gt; 
+&lt;p&gt;
+&lt;font face="book antiqua,palatino" size="2"&gt;&lt;/font&gt;
+&lt;/p&gt;
+</content>
+  <ispublished>True</ispublished>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2008-06-19 22:20:00</pubDate>
+  <lastModified>2008-06-20 20:01:26</lastModified>
+  <raters>1</raters>
+  <rating>4</rating>
+  <slug>HTMLPage-class</slug>
+  <tags>
+    <tag>silverlight</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>ac591e20-7826-49a6-8ded-98a5840e2115</category>
+    <category>c18e0167-4a74-4704-9e72-6d07d1f5d3eb</category>
+  </categories>
+  <notifications />
+</post>

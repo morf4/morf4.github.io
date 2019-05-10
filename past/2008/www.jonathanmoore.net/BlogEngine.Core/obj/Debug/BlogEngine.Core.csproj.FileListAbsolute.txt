@@ -1,0 +1,27 @@
+C:\Users\Jonathan Moore\Desktop\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.dll
+C:\Users\Jonathan Moore\Desktop\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.pdb
+C:\Users\Jonathan Moore\Desktop\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.dll
+C:\Users\Jonathan Moore\Desktop\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\Unorganized\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\Unorganized\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\Unorganized\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\JonathanMoore\Unorganized\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\Unorganized\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.XML
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\BlogEngine.Core.dll
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\BlogEngine.Core.pdb
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\BlogEngine.Core.XML
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\SphinxLogic\Web\SphinxLogic\SphinxLogic_Web\blogs\jonathanm\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\TODO\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\TODO\BlogEngine.NET_1.3_(source)\BlogEngine.Core\bin\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\TODO\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\JonathanMoore\TODO\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\TODO\BlogEngine.NET_1.3_(source)\BlogEngine.Core\obj\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\Personal\Web\www.jonathanmoore.net\BlogEngine.Core\bin\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\Personal\Web\www.jonathanmoore.net\BlogEngine.Core\bin\Debug\BlogEngine.Core.pdb
+C:\JonathanMoore\Personal\Web\www.jonathanmoore.net\BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\JonathanMoore\Personal\Web\www.jonathanmoore.net\BlogEngine.Core\obj\Debug\BlogEngine.Core.dll
+C:\JonathanMoore\Personal\Web\www.jonathanmoore.net\BlogEngine.Core\obj\Debug\BlogEngine.Core.pdb

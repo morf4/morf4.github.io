@@ -1,0 +1,6 @@
+<opml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <body>
+    <outline title="Scott Guthrie's Blog" description="Scott Guthrie's Blog" xfn="contact" xmlUrl="http://weblogs.asp.net/scottgu/rss.aspx" htmlUrl="http://weblogs.asp.net/scottgu/" />
+    <outline title="Sandcastle Blog" description="Sandcastle Blog" xfn="contact" xmlUrl="http://blogs.msdn.com/sandcastle/rss.xml" htmlUrl="http://blogs.msdn.com/sandcastle/" />
+  </body>
+</opml>

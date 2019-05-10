@@ -1,0 +1,55 @@
+[
+	{
+		"projects": [
+			{
+				"title": "Windows Reaserch Kernel",
+				"logo": "img/windows_logo.svg",
+				"textHeader": [
+					"<h3>Windows Research Kernel</h3>",
+					"<p class='details'>The Windows Research Kernel<br> tested on XP.<br/>",
+					"<a href='https://github.com/notfarfromorion/Windows-Research-Kernel' target='_blank'>Learn more...</a></p>"
+				]
+			},
+			{
+				"title": "PhoneGap, Easily create apps using the web technologies you know and love: HTML, CSS, and JavaScript",
+				"logo": "img/phonegap.svg",
+				"textHeader": [
+					"<h3>PhoneGap</h3>",
+					"<p class='details'>Free and open source framework to create apps using web technologies.<br/>",
+					"PhoneGap is a distribution of <a href='http://cordova.apache.org/'>Apache Cordova</a><br/>",
+					"<a href='https://github.com/phonegap/' target='_blank'>View on GitHub ></a></p>"
+				]
+			},
+			{
+				"title": "Snap.svg",
+				"logo": "img/snapsvg.svg",
+				"textHeader": [
+					"<h3>Snap.svg</h3>",
+					"<p class='details'>The JavaScript SVG library for the modern web.<br/>",
+					"<a href='http://snapsvg.io/' target='_blank'>Learn more...</a></p>"
+				]
+			}
+		],
+		"orgs": [
+            {
+                "title": "Ableton Tri-Cities User Group",
+				"logo": "img/ableton-logo.png",
+				"textHeader":[
+					"<h3>Ableton Tri-Cities User Group</h3>",
+					"<p class='details'>Code produced by Stanford, Jonathan Moore, Will Prickle, Cycling 74' the Ableton team<br/>",
+				    "<a href='https://github.com/AbletonTriCitiesUserGroup' target='_blank'>View on github...</a>"
+                    ]
+            },
+            
+			{
+				"title": "Not Far from Orion",
+				"logo": "img/Microsoft-Partner.png",
+				"textHeader": [
+					"<h3>Not Far from Orion</h3>",
+					"<p class='details'>Open-source published code from Not Far From Orion.<br/>",
+					"<a href='https://github.com/notfarfromorion' target='_blank'>Learn more...</a>"
+				]
+			}			
+		]
+	}
+]

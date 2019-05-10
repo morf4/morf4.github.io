@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>jonathanm</author>
+  <title>Windows Communication Foundation</title>
+  <description />
+  <content>During the development of the Sphinx Logic site with Silverlight I ran into a road block. I could not use the namespace System.Net.Mail for security reasons. So what Mr. Guthrie suggested was that I use a web&amp;nbsp;service. I thought I would use WCF. And with a little magic it was done. As I&amp;#39;ve told you before I&amp;#39;ll make most of the site and API&amp;#39;s Open Source. Just not yet.&amp;nbsp;So now you can send email via Silverlight 2. Who knows I might post it in the Code Samples section on my next post. 
+</content>
+  <ispublished>True</ispublished>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2008-07-13 12:10:00</pubDate>
+  <lastModified>2008-07-13 12:22:39</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>Windows-Communication-Foundation</slug>
+  <tags>
+    <tag>wcf</tag>
+  </tags>
+  <comments />
+  <categories>
+    <category>ac591e20-7826-49a6-8ded-98a5840e2115</category>
+    <category>9643eb71-abc4-42f0-9163-9e315a306ac2</category>
+  </categories>
+  <notifications />
+</post>

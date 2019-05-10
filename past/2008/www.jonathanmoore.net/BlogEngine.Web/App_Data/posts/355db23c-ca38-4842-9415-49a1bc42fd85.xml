@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>jonathanm</author>
+  <title>Found Bug in Silverlight</title>
+  <description />
+  <content>There is a bug in Silverlight 2 beta 2. when you set&amp;nbsp;RepeatForever to &amp;quot;Forever&amp;quot; of a storyboard element, Sometimes it does not repeat forever. Here was the complete thread. &lt;span style="font-size: 12pt; font-family: 'Verdana','sans-serif'"&gt;&lt;a href="http://silverlight.net/forums/p/19459/68077.aspx#68077"&gt;&lt;font size="2" color="#0000ff"&gt;http://silverlight.net/forums/p/19459/68077.aspx#68077&lt;/font&gt;&lt;/a&gt;&lt;/span&gt;
+</content>
+  <ispublished>True</ispublished>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2008-07-04 11:00:00</pubDate>
+  <lastModified>2008-07-04 11:07:00</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>Found-Bug-in-Silverlight</slug>
+  <tags />
+  <comments />
+  <categories>
+    <category>ac591e20-7826-49a6-8ded-98a5840e2115</category>
+  </categories>
+  <notifications />
+</post>

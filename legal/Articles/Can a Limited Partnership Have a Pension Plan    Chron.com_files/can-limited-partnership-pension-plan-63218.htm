@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style><style class="vjs-styles-dimensions">
+      .videoPlayer-dimensions {
+        width: 400px;
+        height: 225px;
+      }
+
+      .videoPlayer-dimensions.vjs-fluid {
+        padding-top: 56.25%;
+      }
+    </style>
+<style type="text/css">
+			.player
+			{
+				visibility: hidden;
+			}
+		</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SendToNews Video Player</title>
+<script src="can-limited-partnership-pension-plan-63218_data/client.js" async="" type="text/javascript"></script><script type="text/javascript" src="can-limited-partnership-pension-plan-63218_data/digitrust.js"></script><script type="text/javascript" src="can-limited-partnership-pension-plan-63218_data/digitrust.js"></script><script async="" type="text/javascript" src="gpt.js"></script><script>
+			// before you do anything else, polyfill promises for ie
+			!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):t.ES6Promise=e()}(this,function(){"use strict";function t(t){var e=typeof t;return null!==t&&("object"===e||"function"===e)}function e(t){return"function"==typeof t}function n(t){G=t}function r(t){H=t}function o(){return function(){return process.nextTick(a)}}function i(){return"undefined"!=typeof B?function(){B(a)}:c()}function s(){var t=0,e=new Q(a),n=document.createTextNode("");return e.observe(n,{characterData:!0}),function(){n.data=t=++t%2}}function u(){var t=new MessageChannel;return t.port1.onmessage=a,function(){return t.port2.postMessage(0)}}function c(){var t=setTimeout;return function(){return t(a,1)}}function a(){for(var t=0;t<z;t+=2){var e=X[t],n=X[t+1];e(n),X[t]=void 0,X[t+1]=void 0}z=0}function f(){try{var t=require,e=t("vertx");return B=e.runOnLoop||e.runOnContext,i()}catch(n){return c()}}function l(t,e){var n=this,r=new this.constructor(p);void 0===r[$]&&k(r);var o=n._state;if(o){var i=arguments[o-1];H(function(){return x(o,r,i,n._result)})}else E(n,r,t,e);return r}function h(t){var e=this;if(t&&"object"==typeof t&&t.constructor===e)return t;var n=new e(p);return g(n,t),n}function p(){}function v(){return new TypeError("You cannot resolve a promise with itself")}function d(){return new TypeError("A promises callback cannot return that same promise.")}function _(t){try{return t.then}catch(e){return rt.error=e,rt}}function y(t,e,n,r){try{t.call(e,n,r)}catch(o){return o}}function m(t,e,n){H(function(t){var r=!1,o=y(n,e,function(n){r||(r=!0,e!==n?g(t,n):S(t,n))},function(e){r||(r=!0,j(t,e))},"Settle: "+(t._label||" unknown promise"));!r&&o&&(r=!0,j(t,o))},t)}function b(t,e){e._state===et?S(t,e._result):e._state===nt?j(t,e._result):E(e,void 0,function(e){return g(t,e)},function(e){return j(t,e)})}function w(t,n,r){n.constructor===t.constructor&&r===l&&n.constructor.resolve===h?b(t,n):r===rt?(j(t,rt.error),rt.error=null):void 0===r?S(t,n):e(r)?m(t,n,r):S(t,n)}function g(e,n){e===n?j(e,v()):t(n)?w(e,n,_(n)):S(e,n)}function A(t){t._onerror&&t._onerror(t._result),M(t)}function S(t,e){t._state===tt&&(t._result=e,t._state=et,0!==t._subscribers.length&&H(M,t))}function j(t,e){t._state===tt&&(t._state=nt,t._result=e,H(A,t))}function E(t,e,n,r){var o=t._subscribers,i=o.length;t._onerror=null,o[i]=e,o[i+et]=n,o[i+nt]=r,0===i&&t._state&&H(M,t)}function M(t){var e=t._subscribers,n=t._state;if(0!==e.length){for(var r=void 0,o=void 0,i=t._result,s=0;s<e.length;s+=3)r=e[s],o=e[s+n],r?x(n,r,o,i):o(i);t._subscribers.length=0}}function T(){this.error=null}function P(t,e){try{return t(e)}catch(n){return ot.error=n,ot}}function x(t,n,r,o){var i=e(r),s=void 0,u=void 0,c=void 0,a=void 0;if(i){if(s=P(r,o),s===ot?(a=!0,u=s.error,s.error=null):c=!0,n===s)return void j(n,d())}else s=o,c=!0;n._state!==tt||(i&&c?g(n,s):a?j(n,u):t===et?S(n,s):t===nt&&j(n,s))}function C(t,e){try{e(function(e){g(t,e)},function(e){j(t,e)})}catch(n){j(t,n)}}function O(){return it++}function k(t){t[$]=it++,t._state=void 0,t._result=void 0,t._subscribers=[]}function Y(){return new Error("Array Methods must be provided an Array")}function Y(){return new Error("Array Methods must be provided an Array")}function q(t){return new st(this,t).promise}function F(t){var e=this;return new e(W(t)?function(n,r){for(var o=t.length,i=0;i<o;i++)e.resolve(t[i]).then(n,r)}:function(t,e){return e(new TypeError("You must pass an array to race."))})}function D(t){var e=this,n=new e(p);return j(n,t),n}function K(){throw new TypeError("You must pass a resolver function as the first argument to the promise constructor")}function L(){throw new TypeError("Failed to construct 'Promise': Please use the 'new' operator, this object constructor cannot be called as a function.")}function N(){var t=void 0;if("undefined"!=typeof global)t=global;else if("undefined"!=typeof self)t=self;else try{t=Function("return this")()}catch(e){throw new Error("polyfill failed because global object is unavailable in this environment")}var n=t.Promise;if(n){var r=null;try{r=Object.prototype.toString.call(n.resolve())}catch(e){}if("[object Promise]"===r&&!n.cast)return}t.Promise=ut}var U=void 0;U=Array.isArray?Array.isArray:function(t){return"[object Array]"===Object.prototype.toString.call(t)};var W=U,z=0,B=void 0,G=void 0,H=function(t,e){X[z]=t,X[z+1]=e,z+=2,2===z&&(G?G(a):Z())},I="undefined"!=typeof window?window:void 0,J=I||{},Q=J.MutationObserver||J.WebKitMutationObserver,R="undefined"==typeof self&&"undefined"!=typeof process&&"[object process]"==={}.toString.call(process),V="undefined"!=typeof Uint8ClampedArray&&"undefined"!=typeof importScripts&&"undefined"!=typeof MessageChannel,X=new Array(1e3),Z=void 0;Z=R?o():Q?s():V?u():void 0===I&&"function"==typeof require?f():c();var $=Math.random().toString(36).substring(16),tt=void 0,et=1,nt=2,rt=new T,ot=new T,it=0,st=function(){function t(t,e){this._instanceConstructor=t,this.promise=new t(p),this.promise[$]||k(this.promise),W(e)?(this.length=e.length,this._remaining=e.length,this._result=new Array(this.length),0===this.length?S(this.promise,this._result):(this.length=this.length||0,this._enumerate(e),0===this._remaining&&S(this.promise,this._result))):j(this.promise,Y())}return t.prototype._enumerate=function(t){for(var e=0;this._state===tt&&e<t.length;e++)this._eachEntry(t[e],e)},t.prototype._eachEntry=function(t,e){var n=this._instanceConstructor,r=n.resolve;if(r===h){var o=_(t);if(o===l&&t._state!==tt)this._settledAt(t._state,e,t._result);else if("function"!=typeof o)this._remaining--,this._result[e]=t;else if(n===ut){var i=new n(p);w(i,t,o),this._willSettleAt(i,e)}else this._willSettleAt(new n(function(e){return e(t)}),e)}else this._willSettleAt(r(t),e)},t.prototype._settledAt=function(t,e,n){var r=this.promise;r._state===tt&&(this._remaining--,t===nt?j(r,n):this._result[e]=n),0===this._remaining&&S(r,this._result)},t.prototype._willSettleAt=function(t,e){var n=this;E(t,void 0,function(t){return n._settledAt(et,e,t)},function(t){return n._settledAt(nt,e,t)})},t}(),ut=function(){function t(e){this[$]=O(),this._result=this._state=void 0,this._subscribers=[],p!==e&&("function"!=typeof e&&K(),this instanceof t?C(this,e):L())}return t.prototype["catch"]=function(t){return this.then(null,t)},t.prototype["finally"]=function(t){var e=this,n=e.constructor;return e.then(function(e){return n.resolve(t()).then(function(){return e})},function(e){return n.resolve(t()).then(function(){throw e})})},t}();return ut.prototype.then=l,ut.all=q,ut.race=F,ut.resolve=h,ut.reject=D,ut._setScheduler=n,ut._setAsap=r,ut._asap=H,ut.polyfill=N,ut.Promise=ut,ut.polyfill(),ut});
+		</script><!-- IMPORTANT
+			Local modifications have been made to video.js and videojs.ima.js
+			Do not update library versions without comparing modifications and checking functionality
+		--><script>
+			window.playerTypeFallback = 'float';
+
+			var scriptPromises = {};
+			!function()
+			{
+				var dependencies = {};
+
+				var resources =
+				{
+					script:
+					{
+						videojs:    {prefix:'library', href: 'video-js/5.19.2/s2n-video.js'},
+						videojshls: {prefix:'library', href: 'videojs-contrib-hls/5.10.0/videojs-contrib-hls.min.js',
+										dependsOn: ['videojs']},
+						ima:        {prefix: false,    href: 'https://imasdk.googleapis.com/js/sdkloader/ima3.js'},
+						videojsads: {prefix:'library', href: 'videojs-contrib-ads/5.0.0/videojs.ads.min.js',
+										dependsOn: ['videojs']},
+						videojsima: {prefix:'library', href: 'videojs-ima/0.6.1/s2n-videojs.ima.js',
+										dependsOn: ['videojs']},
+						spotx:      {prefix: false,    href: '//js.spotx.tv/directsdk/v1/85394.js'},
+						jquery:     {prefix:'library', href: 'jquery/3.2.0/jquery-3.2.0.min.js'},
+						uri:        {prefix:'library', href: 'uri/1.18.10/URI.js'},
+						comscore1:  {prefix:'library', href: 'streamsense/6.2.3.180328/comscore.streaming.min.js'},
+						comscore2:  {prefix:'library', href: 's2ncomscore/2.0.0/s2nComScore.js'},
+						iscroll:    {prefix:'library', href: 'iscroll.js'},
+						common:     {prefix:'root',    href: 'common.js'}
+					},
+					style:
+					{
+						font_open_sans: {prefix: false,     href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,600'},
+						normalize:      {prefix: 'library', href: 'normalize.css'},
+						desktop:        {prefix: 'root',    href: 'desktop.css'},
+						barker:         {prefix: 'root',    href: 'barker.css'},
+						videojs:        {prefix: 'library', href: 'video-js/5.19.2/video-js.min.css'},
+						videojsads:     {prefix: 'library', href: 'videojs-contrib-ads/5.0.0/videojs.ads.min.css'},
+						videojsima:     {prefix: 'library', href: 'videojs-ima/0.6.0/videojs.ima.css'}
+					}
+				};
+
+				var name;
+
+				for(var type in resources)
+				{
+					if(!resources.hasOwnProperty(type)) continue;
+					for(name in resources[type])
+					{
+						if(!resources[type].hasOwnProperty(name)) continue;
+						var resource = resources[type][name];
+						var prefix;
+						switch(resource.prefix)
+						{
+							case 'root':
+								prefix = '//d29xw9s9x32j3w.cloudfront.net/players/vjsplayer4/4/26/0/';
+								break;
+							case 'library':
+								prefix = '//d29xw9s9x32j3w.cloudfront.net/players/library/';
+								break;
+							default:
+								prefix = '';
+						}
+						if
+						(
+							!!function()
+							{
+								try
+								{
+									return document.createElement("link").relList.supports('preload');
+								}
+								catch(e)
+								{
+									return false;
+								}
+							}()
+						)
+						{
+							var preloadTag = document.createElement('link');
+							preloadTag.rel = 'preload';
+							preloadTag.as = type;
+							preloadTag.href = prefix+resource.href;
+							document.head.appendChild(preloadTag);
+						}
+
+						var resourceTag;
+						if(type === 'script')
+						{
+							resourceTag = document.createElement('script');
+							resourceTag.src = prefix+resource.href;
+						}
+						else
+						{
+							resourceTag = document.createElement('link');
+							resourceTag.rel = 'stylesheet';
+							resourceTag.href = prefix+resource.href;
+						}
+
+						if(type === 'style')
+						{
+							document.head.appendChild(resourceTag);
+						}
+
+						if(type === 'script')
+						{
+							if(resource.dependsOn)
+							{
+								resource.dependsOn.forEach(function(dependency)
+								{
+									dependencies[name] = dependencies[name] || [];
+									dependencies[name].push(dependency);
+								});
+								resource.scriptTag = resourceTag;
+							}
+							else
+							{
+								document.head.appendChild(resourceTag);
+							}
+
+							scriptPromises[name] = new Promise(function(name,resourceTag,resolve,reject)
+							{
+								resourceTag.onerror = function()
+								{
+									console.warn('An s2n player resource failed to load: ',name);
+									reject(resourceTag);
+								};
+
+								resourceTag.onload = function()
+								{
+									resolve();
+
+									for(var hasDependency in dependencies)
+									{
+										var index = dependencies[hasDependency].indexOf(name);
+										if(index === -1)
+										{
+											continue;
+										}
+										dependencies[hasDependency].splice(index,1);
+										if(dependencies[hasDependency].length !== 0)
+										{
+											continue;
+										}
+										delete dependencies[hasDependency];
+										document.head.appendChild(resources.script[hasDependency].scriptTag);
+									}
+								};
+							}.bind(null,name,resourceTag));
+							!function(name)
+							{
+								scriptPromises[name] = scriptPromises[name].then(function(){scriptPromises[name].resolved = true;},function(){scriptPromises[name].rejected = true;});
+							}(name);
+
+							// stop any errors from leaking out of the promise.
+//							scriptPromises[name].catch(function(){});
+						}
+					}
+				}
+			}();
+
+		</script>
+<script src="can-limited-partnership-pension-plan-63218_data/s2n-video.js"></script><script src="can-limited-partnership-pension-plan-63218_data/ima3.js"></script><script src="can-limited-partnership-pension-plan-63218_data/85394.js"></script><script src="can-limited-partnership-pension-plan-63218_data/jquery-3.js"></script><script src="can-limited-partnership-pension-plan-63218_data/URI.js"></script><script src="can-limited-partnership-pension-plan-63218_data/comscore.js"></script><script src="can-limited-partnership-pension-plan-63218_data/s2nComScore.js"></script><script src="can-limited-partnership-pension-plan-63218_data/iscroll.js"></script><script src="can-limited-partnership-pension-plan-63218_data/common.js"></script><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/css.css"><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/normalize.css"><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/desktop.css"><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/barker.css"><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/video-js.css"><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/videojs.css"><link rel="stylesheet" href="can-limited-partnership-pension-plan-63218_data/videojs_002.css"><script src="can-limited-partnership-pension-plan-63218_data/videojs-contrib-hls.js"></script><script src="can-limited-partnership-pension-plan-63218_data/videojs.js"></script><script src="can-limited-partnership-pension-plan-63218_data/s2n-videojs.js"></script><link rel="preload" href="can-limited-partnership-pension-plan-63218_data/integrator.js" as="script"><script type="text/javascript" src="can-limited-partnership-pension-plan-63218_data/integrator.js"></script></head>
+<body class="player-float float">
+		<div class="barkerTitle">Sports Highlights</div>
+		<div class="player" data-smart="no">
+			<div class="header">
+				<div class="headerNowPlaying"><div class="nowPlayingMargins">
+<span class="upNext">Up Next: </span><span class="headerText">George's game winning 3 is the #1 NBA Play of the Day</span>
+</div></div>
+				<!--
+				<div class='feedNav'> 
+						<div class='feedHeader'>
+							<div class='feedTitle'></div>
+						</div>
+					</div>
+				-->
+				<div class="closeButton"></div>
+			</div>
+			<div class="overlayTitle animateFade"></div>
+			<div class="videoOverlay">
+				<div class="videoDetails"></div>
+				<div class="countDown">Your video will play in: <span class="timer">5</span> seconds</div>
+			</div>
+			<div class="videoUnderlay animateLeft close">
+				<div class="underlayImage" style="background: rgba(0, 0, 0, 0) url(&quot;//d29xw9s9x32j3w.cloudfront.net/videos/video_thumb/XL/1-186q6p345rqqr55221qp128p4s9sr2so.jpg&quot;) no-repeat scroll 0% 0% / cover;"><div class="playCircle"><div class="playArrow"></div></div></div>
+				<div class="underlayTitle">George's game winning 3 is the #1 NBA Play of the Day</div>
+				<div class="underlayText">
+					<div class="underlaySummary"></div>
+				</div>
+				<div class="underlayTime">
+					<div class="playVideoArrow"></div>
+					<div class="playVideoText">
+<div class="playVideo">Play Video</div>
+<div class="seperator">|</div>
+<div class="videoLength">00:16</div>
+</div>
+				</div>
+			</div>
+
+			<div class="menuButton hidden animateRight close">
+				<div class="menuIcon"><div class="menuBars"></div></div>
+			</div>
+
+			<!-- BEGIN PLAYLIST -->
+			<div class="playlistCover">
+				<div class="plc_wrap">
+					<div class="plc_background"></div>
+					<div class="plc_content_wrap">
+						<div class="plc_content">Up Next: George's game winning 3 is the #1 NBA Play of the Day</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="playlist animateRight close" id="VtBBB6Nk" ontouchmove="function otm(e){e.preventDefault();}" style="touch-action: pan-x;">
+
+				<!-- BEGIN FEED GRID -->
+
+				<div class="playlistSlider" data-scroll="0" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+
+					<div class="item active" data-xindex="0">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-186q6p345rqqr55221qp128p4s9sr2so.jpg" alt="George's game winning 3 is the #1 NBA Play of the Day" class="thumb"><div class="videoTime">00:16</div>
+</div>
+							<div class="itemTitle">George's game winning 3 is the #1 NBA Play of the Day</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Oklahoma City Thunder</span> | <span class="barkerTime">00:16</span>
+</div>
+						</div>
+					</div>
+
+				<div class="item" data-xindex="1">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-q030nqr0r419s9nq5s98sn351143q0p1.jpg" alt="Looking Back: Shibutani siblings capture ice dance bronze in PyeongChang" class="thumb"><div class="videoTime">00:29</div>
+</div>
+							<div class="itemTitle">Looking Back: Shibutani siblings capture ice dance bronze in PyeongChang</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:29</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="2">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-q241sq9r80p4q3ro195s85s2s15o587q.jpg" alt="Looking Back: USA's Mikaela Shiffrin takes home silver in alpine combined" class="thumb"><div class="videoTime">00:28</div>
+</div>
+							<div class="itemTitle">Looking Back: USA's Mikaela Shiffrin takes home silver in alpine combined</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:28</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="3">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-07qrrq5nprp8qpo3q29173895os373q8.jpg" alt="Looking Back: Medal dreams dashed as USA men's hockey lose to Czech Republic in shootout" class="thumb"><div class="videoTime">00:32</div>
+</div>
+							<div class="itemTitle">Looking Back: Medal dreams dashed as USA men's hockey lose to Czech Republic in shootout</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:32</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="4">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-roo25004rss1352r591o17s60r125n10.jpg" alt="Looking Back: U.S. men defeat Sweden to capture first curling gold" class="thumb"><div class="videoTime">00:28</div>
+</div>
+							<div class="itemTitle">Looking Back: U.S. men defeat Sweden to capture first curling gold</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:28</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="5">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-3qsp1066roq311q5277246336p2s0867.jpg" alt="Looking Back: USA women's hockey top Canada in shootout, capture first gold since 1998" class="thumb"><div class="videoTime">00:28</div>
+</div>
+							<div class="itemTitle">Looking Back: USA women's hockey top Canada in shootout, capture first gold since 1998</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:28</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="6">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-358553n1303s4o0637r4500o48rpqo7p.jpg" alt="Looking Back: American snowboarder Jamie Anderson wins silver in big air competition" class="thumb"><div class="videoTime">00:30</div>
+</div>
+							<div class="itemTitle">Looking Back: American snowboarder Jamie Anderson wins silver in big air competition</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:30</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="7">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-4qn4ps4p5oqrs4n7p689o69q0o330so2.jpg" alt="Looking Back: Virtue, Moir capture ice dance gold for Canada in magical finale" class="thumb"><div class="videoTime">00:33</div>
+</div>
+							<div class="itemTitle">Looking Back: Virtue, Moir capture ice dance gold for Canada in magical finale</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:33</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="8">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-3snorp7r9973541npqsr7p29371r1396.jpg" alt="Looking Back: USA gets first-ever men's curling win over Canada in PyeongChang" class="thumb"><div class="videoTime">00:27</div>
+</div>
+							<div class="itemTitle">Looking Back: USA gets first-ever men's curling win over Canada in PyeongChang</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:27</span>
+</div>
+						</div>
+					</div><div class="item" data-xindex="9">
+						<div class="itemDetails">
+							<div class="itemThumbnail">
+<img src="can-limited-partnership-pension-plan-63218_data/1-827ppss3nrp3q63n3868505por0s6r97.jpg" alt="Looking Back: Team USA hockey thump Slovakia 5-1 in elimination game" class="thumb"><div class="videoTime">00:25</div>
+</div>
+							<div class="itemTitle">Looking Back: Team USA hockey thump Slovakia 5-1 in elimination game</div>
+							<div class="barkerDetails">
+<span class="barkerCompany">Sports Updates</span> | <span class="barkerTime">00:25</span>
+</div>
+						</div>
+					</div></div>
+
+
+				<div class="scrollbarWrapper menuAnimation">
+					<div id="menuScrollbar" class="menuScrollBar iScrollLoneScrollbar">
+						<div class="scrollHandle" style="transition-duration: 0ms; display: block; transform: translate(0px, 0px) translateZ(0px); transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);"></div>
+					</div>
+				</div>
+				<!-- END FEED GRID -->
+
+			</div>
+			
+			<div class="video" data-played="0">
+				<div class="videoThumbnail" style="background-image: url(&quot;//d29xw9s9x32j3w.cloudfront.net/videos/video_thumb/XL/1-186q6p345rqqr55221qp128p4s9sr2so.jpg&quot;); display: none;"><div class="playButton"><div class="playButtonArrow"></div></div></div>
+				<div tabindex="-1" playsinline="" muted="true" autoplay="true" class="video-js vjs-default-skin vjs-fluid vjs-big-play-centered s2nVideo videoPlayer-dimensions vjs-controls-enabled vjs-workinghover vjs-has-started vjs-user-inactive vjs-playing" id="videoPlayer" role="region" aria-label="video player"><video id="videoPlayer_html5_api" class="vjs-tech" muted="muted" playsinline="" tabindex="-1" preload="auto" src="blob:https://smallbusiness.chron.com/d8b8703b-3cec-46b3-b2d2-705b974ef166"></video><div></div><div class="vjs-poster" tabindex="-1" aria-disabled="false" style="background-image: url(&quot;//d29xw9s9x32j3w.cloudfront.net/videos/video_thumb/XL/1-186q6p345rqqr55221qp128p4s9sr2so.jpg&quot;);"></div><div class="vjs-text-track-display" aria-live="off" aria-atomic="true"></div><div class="vjs-loading-spinner" dir="ltr"></div><button class="vjs-big-play-button" type="button" aria-live="polite" title="Play Video" aria-disabled="false"><span class="vjs-control-text">Play Video</span></button><div class="vjs-control-bar" dir="ltr" role="group"><button class="vjs-play-control vjs-control vjs-button vjs-playing" type="button" aria-live="polite" title="Pause" aria-disabled="false"><span class="vjs-control-text">Pause</span></button><div class="vjs-volume-menu-button vjs-menu-button vjs-menu-button-inline vjs-control vjs-button vjs-volume-menu-button-horizontal vjs-vol-0" tabindex="0" role="button" aria-live="polite" title="Unmute" aria-disabled="false"><div class="vjs-menu"><div class="vjs-menu-content"><div tabindex="0" class="vjs-volume-bar vjs-slider-bar vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="0.00" aria-valuemin="0" aria-valuemax="100" aria-label="volume level" aria-valuetext="0.00%"><div class="vjs-volume-level" style="width: 0%;"><span class="vjs-control-text"></span></div></div></div></div><span class="vjs-control-text">Unmute</span></div><div class="vjs-current-time vjs-time-control vjs-control"><div class="vjs-current-time-display" aria-live="off"><span class="vjs-control-text">Current Time</span> 0:02</div></div><div class="vjs-time-control vjs-time-divider"><div><span>/</span></div></div><div class="vjs-duration vjs-time-control vjs-control"><div class="vjs-duration-display" aria-live="off"><span class="vjs-control-text">Duration Time</span> 0:16</div></div><div class="vjs-progress-control vjs-control"><div tabindex="0" class="vjs-progress-holder vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="13.50" aria-valuemin="0" aria-valuemax="100" aria-label="progress bar" aria-valuetext="0:02"><div class="vjs-load-progress" style="width: 100%;"><span class="vjs-control-text"><span>Loaded</span>: 0%</span><div style="left: 0.145774%; width: 99.8542%;"></div></div><div class="vjs-mouse-display" style="left: 0px;" data-current-time="0:00"></div><div class="vjs-play-progress vjs-slider-bar" data-current-time="0:02" style="width: 13.5%;"><span class="vjs-control-text"><span>Progress</span>: 0%</span></div></div></div><div class="vjs-live-control vjs-control vjs-hidden"><div class="vjs-live-display" aria-live="off"><span class="vjs-control-text">Stream Type</span>LIVE</div></div><div class="vjs-remaining-time vjs-time-control vjs-control"><div class="vjs-remaining-time-display" aria-live="off"><span class="vjs-control-text">Remaining Time</span> -0:14</div></div><div class="vjs-custom-control-spacer vjs-spacer ">&nbsp;</div><div class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Playback Rate" aria-disabled="false" aria-expanded="false" aria-haspopup="true"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"></ul></div><span class="vjs-control-text">Playback Rate</span><div class="vjs-playback-rate-value">1</div></div><div class="vjs-chapters-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Chapters" aria-disabled="false" aria-expanded="false" aria-haspopup="true" aria-label="Chapters Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-title" tabindex="-1">Chapters</li></ul></div><span class="vjs-control-text">Chapters</span></div><div class="vjs-descriptions-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Descriptions" aria-disabled="false" aria-expanded="false" aria-haspopup="true" aria-label="Descriptions Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-disabled="false" aria-checked="true">descriptions off<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Descriptions</span></div><div class="vjs-subtitles-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Subtitles" aria-disabled="false" aria-expanded="false" aria-haspopup="true" aria-label="Subtitles Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-disabled="false" aria-checked="true">subtitles off<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Subtitles</span></div><div class="vjs-captions-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Captions" aria-disabled="false" aria-expanded="false" aria-haspopup="true" aria-label="Captions Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-texttrack-settings" tabindex="-1" role="menuitem" aria-live="polite" aria-disabled="false">captions settings<span class="vjs-control-text">, opens captions settings dialog</span></li><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-disabled="false" aria-checked="true">captions off<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Captions</span></div><div class="vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Audio Track" aria-disabled="false" aria-expanded="false" aria-haspopup="true" aria-label="Audio Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-disabled="false" aria-checked="true">default<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Audio Track</span></div><button class="vjs-fullscreen-control vjs-control vjs-button" type="button" aria-live="polite" title="Fullscreen" aria-disabled="false"><span class="vjs-control-text">Fullscreen</span></button></div><div class="vjs-error-display vjs-modal-dialog vjs-hidden " tabindex="-1" aria-describedby="videoPlayer_component_415_description" aria-hidden="true" aria-label="Modal Window" role="dialog"><p class="vjs-modal-dialog-description vjs-offscreen" id="videoPlayer_component_415_description">This is a modal window.</p><div class="vjs-modal-dialog-content" role="document"></div></div><div id="videoPlayer_ima-ad-container" class="videoPlayer_ima-ad-container ima-ad-container" style="position: absolute; z-index: 1111;"><div style="position: absolute;"><div style="display: none;"><video style="background-color: rgb(0, 0, 0); position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;" title="Advertisement" webkit-playsinline="true" playsinline="true"></video><div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div></div><div style="display: none;"><video style="background-color: rgb(0, 0, 0); position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;" title="Advertisement" webkit-playsinline="true" playsinline="true"></video><div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div></div><iframe src="can-limited-partnership-pension-plan-63218_data/bridge3.htm" allowfullscreen="" style="border: 0px none; opacity: 0; margin: 0px; padding: 0px; position: relative;"></iframe></div><div id="videoPlayer_ima-controls-div" class="videoPlayer_ima-controls-div ima-controls-div" style="width: 100%;"><div id="videoPlayer_ima-countdown-div" class="videoPlayer_ima-countdown-div ima-countdown-div" style="display: block;">Advertisement</div><div id="videoPlayer_ima-seek-bar-div" class="videoPlayer_ima-seek-bar-div ima-seek-bar-div" style="width: 100%;"><div id="videoPlayer_ima-progress-div" class="videoPlayer_ima-progress-div ima-progress-div"></div></div><div id="videoPlayer_ima-play-pause-div" class="videoPlayer_ima-play-pause-div ima-play-pause-div ima-playing"></div><div id="videoPlayer_ima-mute-div" class="videoPlayer_ima-mute-div ima-mute-div ima-non-muted"></div><div id="videoPlayer_ima-slider-div" class="videoPlayer_ima-slider-div ima-slider-div"><div id="videoPlayer_ima-slider-level-div" class="videoPlayer_ima-slider-level-div ima-slider-level-div"></div></div><div id="videoPlayer_ima-fullscreen-div" class="videoPlayer_ima-fullscreen-div ima-fullscreen-div ima-non-fullscreen"></div></div></div></div><div id="companion" class="companion" style="display: none;"></div>
+				<div class="overlayCompanionClose" style="display: none;">X</div>
+			</div>
+		</div>
+		<div id="div-gpt-ad-1491240444228-0" class="static"></div>
+
+	
+<iframe style="display: none;" src="can-limited-partnership-pension-plan-63218_data/dt.htm" name="__dtLocator"></iframe></body></html>
