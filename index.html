@@ -1,37 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Mortality Factor 4</title>
-    <link rel="stylesheet" href="style.css" media="screen" title="no title">
-    <link rel="stylesheet" href="stylesheets/css/main.css" media="screen" title="no title">  
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="navbar.css"> <!-- Navigation CSS -->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="js no-touch" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your page description here">
+    <meta name="author" content="">
+    <meta name="robots" content="noindex,follow" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">      
+    <title>Mortality Factor 4</title>      
+    <!-- css -->  
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">    
+    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="navbar.css"> <!-- Navigation CSS -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">    
-<meta name="robots" content="noindex,follow" />
-  </head>
-  <body>
-<header id="header">
- <div class="wrapLogoTop">
-    <img class="logoTop" src="images/adobe-tag.png" title="Adobe Open Source" alt="adobe-tag"/>
- </div>
-    
-    <!-- Overlay Navigation Menu -->
+    <link rel="stylesheet" href="stylesheets/css/menu.css">   
+</head>  
+<body>
+<!-- start header -->    
+<header id="header">   
+<div class="wrapLogoTop">
+    <img class="logoTop" src="images/adobe-tag.png" title="Adobe Open Source" alt="adobe-tag"/> 
+    </div>
     <div class="container">
-            <div>
-              <label class="mobile_menu" for="mobile_menu">
-              <span>Menu</span>
-              </label>
-              <input id="mobile_menu" type="checkbox">
-              <ul class="nav">
-              <li><a href="http://mortalityfactor4.org"><i class="icon-home icon-large"></i></a></li>
-             
-             
-            <!----- Full Drop Down Name ----> 
+				<div class="navbar navbar-static-top">
+					<div class="navigation">
+						<nav>
+						<ul class="nav topnav bold">
+							<li class="dropdown active">
+							<a href="#">General Education<i class="icon-angle-down"></i></a>
+							<ul class="dropdown-menu bold">
+								 <li><a href="https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-00sc-introduction-to-psychology-fall-2011/">Psychology</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/anthropology/21a-750j-social-theory-and-analysis-fall-2011/">Sociology</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/literature/">Literature</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/anthropology/">Anthropology</a></li> 
+                                 <li><a href="https://ocw.mit.edu/courses/literature/21l-001-foundations-of-western-culture-homer-to-dante-fall-2008/">Western Civilization I</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/literature/21l-002-2-foundations-of-western-culture-ii-renaissance-to-modernity-spring-2003/">Western Civilization II</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/global-studies-and-languages/21g-301-french-i-fall-2004/">French I</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/global-studies-and-languages/21g-302-french-ii-fall-2004/">French II</a></li>
+                                 <li><a href="https://ocw.mit.edu/courses/literature/21l-705-major-authors-old-english-and-beowulf-spring-2014/">Old English and Beowulf</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/literature/21l-471-major-english-novels-spring-2009/">Major English Novels</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/history/21h-101-american-history-to-1865-fall-2010/">American History to 1865</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/chemistry/5-111sc-principles-of-chemical-science-fall-2014/">Principles of Chemical Science</a></li>
+							</ul>
+							</li>
+							<li class="dropdown">
+							<a href="#">Major<i class="icon-angle-down"></i></a>
+							<ul style="display: none;" class="dropdown-menu bold">
+								<li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/">Introduction to C and C++</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/">Effective Programming in C and C++</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/">Advanced Data Structures</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/">Introduction to Algorithms</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-124j-foundations-of-software-engineering-fall-2000/">Foundations of Software Engineering</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-171-software-engineering-for-web-applications-fall-2003/">Software Engineering for Web Applications</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/">Single Variable Calculus</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/">Multivariable Calculus</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/">Computer Systems Security</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/">Operating Systems Theory</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/">Database Systems</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-829-computer-networks-fall-2002/">Computer Networks</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-821-programming-languages-fall-2002/">Programming Languages</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-spring-2011/">HCI</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/urban-studies-and-planning/11-521-spatial-database-management-and-advanced-geographic-information-systems-spring-2003/">Spatial Database Management and Advanced Geographic Information Systems</a></li> 								
+							</ul>
+							</li>
+							<li class="dropdown">
+							<a href="#">Minor<i class="icon-angle-down"></i></a>
+							<ul class="dropdown-menu bold">
+								<li><a href="education/minor/mas-714j-fall-2009/START.htm">Digital Imaging</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/music-and-theater-arts/21m-380-music-and-technology-recording-techniques-and-audio-production-spring-2012/index.htm">Music I</a></li>
+                                <li><a href="https://ocw.mit.edu/courses/music-and-theater-arts/21m-380-music-and-technology-sound-design-spring-2016/">Music II</a></li>
+							</ul>
+							</li>
+							<li class="dropdown">
+							<a href="#">Personality<i class="icon-angle-down"></i></a>
+							<ul style="display: none;" class="dropdown-menu bold">
+								 <li><a href="personality/Jonathan%20Moore%20-%20Turbulent%20Architect%20(INTJ-T)%20_%2016Personalities.pdf">Offical Test Results</a></li>
+                                <li><a href="personality/Jonathan_Moore_Personality_04_24_78.pdf">Despription</a></li>
+                                <li><a href="personality/Architect%20profile.PDF">Pro Profile</a></li>
+							</ul>
+							</li>
+							<li class="dropdown">
+							<a href="#">Portfolio<i class="icon-angle-down"></i></a>
+							<ul class="dropdown-menu bold">
+								<li><a href="https://www.behance.net/jdm7dv">Behance</a></li>								
+							</ul>
+							</li>
+							<li>
+							<a href="https://www.uvawise.edu/academics/department-mathematics-computer-science/computer-science/">University of Virginia </a>
+							</li>
+                            <li>
+                             <li>
+							<a href="https://ocw.mit.edu/courses/mit-curriculum-guide/">MIT</a>
+							</li>
+                            <li> 
+                            <li>                                  
+							<a href="CV/Curriculum%20Vitae.pdf">Curriculum Vitae</a>
+                            </li>   
+                            <li>    
+							<a href="">Contact </a>
+							</li>             
+                            
+						</ul>
+						</nav>
+                    </div>
+        </div>
+    </div>
+					<!-- end navigation -->
+    <!--Old Navigation Menu -->
+    <!--<div class="container">
+       <div>
+        <label class="mobile_menu" for="mobile_menu">
+        <span>Menu</span>
+        </label>
+        <input id="mobile_menu" type="checkbox">
+        <ul class="nav">
+        <li><a href="http://mortalityfactor4.org"><i class="icon-home icon-large"></i></a></li>
+       
               <li class="dropdown"><a href="#">Genaral Education</a>     
-            <!----- Full Drop Down Name Ends Here ---->     
-                         
-            <!----- Full Drop Down Contents  Starts Here---->     
+            
                   
               <div class="fulldrop">              
                 <div class="column">
@@ -66,13 +155,13 @@
                
               </div>
               </li>
-              <!----- Full Drop Down Contents  Ends  Here---->      
               
-              <!----- Full Drop Down Name ----> 
+              
+          
             <li class="dropdown"><a href="#">Major</a>     
-            <!----- Full Drop Down Name Ends Here ---->     
+             
                          
-            <!----- Full Drop Down Contents  Starts Here---->     
+               
              <div class="fulldrop">              
                 <div class="column">
                      <h3></h3>
@@ -114,12 +203,11 @@
               
               </div>
               </li>
-              <!----- Full Drop Down Contents  Ends  Here---->   
-               <!----- Full Drop Down Name ----> 
+            
             <li class="dropdown"><a href="#">Minor</a>     
-            <!----- Full Drop Down Name Ends Here ---->     
+             
                          
-            <!----- Full Drop Down Contents  Starts Here---->     
+              
              <div class="fulldrop">              
                 <div class="column">
                      <h3></h3>
@@ -134,9 +222,7 @@
               </div>
               </li>
               <li class="dropdown"><a href="#">Personality</a>     
-            <!----- Full Drop Down Name Ends Here ---->     
-                         
-            <!----- Full Drop Down Contents  Starts Here---->     
+             
              <div class="fulldrop">              
                 <div class="column">
                      <h3></h3>
@@ -149,34 +235,34 @@
               </div>
              </li>
                   
-              <!-----Full Drop Down Contents  Ends  Here---->   
+               
              
               
           
-        <!----- Regular Menu Button ---->   
+     
           <li><a href="#">University of Virginia</a></li>
-        <!----- Regular Menu Button Ends---->  
+       
            
          
-          <!----- Regular Menu Button ---->  
-               <li><a href="#">MIT</a></li>
-          <!----- Regular Menu Button Ends---->  
-          
-          <!----- Regular Menu Button ---->  
-               <li><a href="#">Transcripts</a></li>
-          <!----- Regular Menu Button Ends---->  
-                  
-          <!----- Regular Menu Button ---->  
-               <li><a href="CV/Curriculum%20Vitae.pdf">Curriculum Vitae</a></li>
-          <!----- Regular Menu Button Ends---->  
       
-                <!----- Regular Menu Button ---->  
+               <li><a href="#">MIT</a></li>
+         
+          
+        
+               <li><a href="#">Transcripts</a></li>
+          
+                  
+          
+               <li><a href="CV/Curriculum%20Vitae.pdf">Curriculum Vitae</a></li>
+         
+              
                <li><a href="#">Contact</a></li>
-          <!----- Regular Menu Button Ends---->             
+                     
                  
           </ul> 
-        </div>
-      </div>
+        </div
+      </div>-->
+     
     </header>
     <h1 class="text_over_image">Mortality Factor 4</h1>
      <div class="navbar2">
@@ -192,7 +278,7 @@
     </div>   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
-  </body>
-   
-
+    <script src="js/jquery.js"></script>
+	<script src="js/custom.js"></script>
+</body>
 </html>
